@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1168px;
+    margin: 0 auto;
+    width: 100%;
+}
+.row{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 -15px;
+    
+}
+.img{
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.icon-btn {
+    border: unset;
+    background-color: transparent;
+}
+
+.icon-btn:nth-child(2) {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.header {
+    padding: 40px 0;
+}
+
+.mobile-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.text-btn {
+    padding: 8px 30px;
+    border: none;
+    background-color: transparent;
+    color: #156963;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.contain-btn {
+    padding: 8px 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #156963;
+    color: white;
+}
+
+.large-btn {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.large-btn span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.large-btn span :nth-child(1) {
+    font-size: 24px;
+    color: #333;
+}
+
+.large-btn span :nth-child(2) {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+
+
+
+.hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.hero {
+    padding: 70px 0;
+}
+
+.hero-wrapper h1 {
+    font-size: 68px;
+    font-style: normal;
+    font-weight: 500;
+    color: #156963;
+    width: 523px;
+    margin-bottom: 24px;
+}
+
+.hero-wrapper p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    width: 523px;
+}
+
+.hero-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 70px;
+    line-height: 32px;
+}
+
+.hero-action img {
+    margin-top: -425px;
+}
+
+.second-section {
+    display: flex;
+
+}
+
+.fast {
+    display: flex
+}
+
+.box-border {
+    border: 1px solid;
+    padding: 20px 10px;
+    border: 1px solid var(--Gray-5, #E0E0E0);
+    background: var(--white, #FFF);
+}
+
+.col-2 {
+    width: 16.66%;
+    padding: 15px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.box-svg h3 {
+    color: #156963;
+    font-size: 16px;
+    padding: 25px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.small {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.small button {
+    padding: 12px 8px;
+    border-color: gray;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.small h2 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.box-inner {
+    gap: 15px;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+}
+.landak{
+    padding: 20px 45px;
+   
+    
+}
+    
+
+.col-2-5 {
+    width: 20%;
+    padding: 15px;
+}
+
+.img-col2 {
+    width: 100%;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 25px;
+    padding: 15px;
+}
+
+.col-6 h1 {
+    padding: 25px 0;
+    color: #2C1500;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.col-6 p {
+    padding: 60px 0;
+    color: #2C1500;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.box-plant {
+    display: flex;
+    gap: 35px;
+}
+
+.col-6 img {
+   padding: 35px 0;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.button-get {
+    padding: 10px 20px;
+    background-color: #156963;
+    color: white;
+    margin-top: 70px;
+    right: 50px;
+}
+
+.box-vizit {
+    display: flex;
+    align-items: flex-start;
+    padding: 25px;
+    border: 1px solid;
+    background: #F3F4F6;
+   
+}
+
+.get h1 {
+    padding: 30px 20px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #2C1500;
+}
+
+.col-4 {
+    width: 33.33%;
+
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.col-4 h1 {
+    color: #156963;
+    padding: 25px;
+}
+
+.col-2 h2 {
+    padding: 20px;
+}
+
+.col-2 p {
+    padding: 20px;
+
+}
+
+.col-4 h2 {
+    padding: 20px 0;
+}
+
+.col-4 p {
+    padding: 20px;
+}
+
+.col-4 h3 {
+    padding: 20px;
+}
+
+.last-button {
+    padding: 4px 12px;
+    background-color: #156963;
+    color: white;
+    margin: 20px 0;
+
+}
+.premuim{
+   display: flex;
+  
+}
+footer input{
+    padding: 8px 85px 13px;
+    border-radius: 2px;
+    border: 1px solid var(--Gray-6, #F2F2F2);
+    border-color: var(--Gray-6, #F2F2F2);;
+    text-align: start;
+}
+
